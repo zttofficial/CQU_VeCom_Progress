@@ -1,9 +1,10 @@
 from PIL import Image
 import os
 import random
+from multichannels_splicing import multichannels_splicing
 
-file_path1 = "D:/CQU/车身对比/车身对比0330-0430_1"
-file_path2 = "D:/CQU/车身对比/0330-0430"
+file_path1 = "/home/user/dataset/VeCom_0330-0430_1_cut"
+file_path2 = "/home/user/dataset/VeCom_0330-0430_1_cut"
 path_list1 = os.listdir(file_path1) 
 path_list2 = os.listdir(file_path2)
 
@@ -30,14 +31,14 @@ def pic_joint(path1, path2, num, flag='horizontal'):
 
         joint.paste(img1, loc1)
         joint.paste(img2, loc2)
-        joint.save("D:/CQU/车身对比/splicing_F/"+str(num+18600)+"_F.jpg")
+        joint.save("/home/user/dataset/cut/"+str(num)+"F_.jpg")
         
     elif flag == 'vertical':
         joint = Image.new('RGB', (size1[0], size1[1] + size2[1]))
         loc1, loc2 = (0, 0), (0, size1[1])
         joint.paste(img1, loc1)
         joint.paste(img2, loc2)
-        joint.save("D:/CQU/车身对比/splicing_F/"+str(num+18600)+"_F.jpg")
+        joint.save("/home/user/dataset/cut/"+str(num)+"F_.jpg")
         
 for i in path_list1:
     path_name1.append(i)
@@ -45,12 +46,29 @@ for i in path_list1:
 
 for j in path_list2:   
     path_name2.append(j)
-    print(j)
-    
+    #print(j)
+
+path_name1 = [x for x in path_name1 if "A" in x]
+path_name1.sort()
+#print(path_name1)
+path_name2 = [x for x in path_name2 if not "A" in x]
+path_name2.sort()
+#print(path_name2)
+
+#pic_joint    
 for file_name in path_name1:   
     path1 = file_path1 + "/" + path_name1[count]
     #path2 = file_path2 + "/" + path_name2[count]
     path2 = file_path2 + "/" + path_name2[random.choice(list(range(0,count)) + list(range(count+1, 15013)))]
     pic_joint(path1, path2, count, flag='horizontal')
+    count = count + 1
+    print(count)
+    
+#multichannels_splicing
+for file_name in path_name1:   
+    path1 = file_path1 + "/" + path_name1[count]
+    path2 = file_path2 + "/" + path_name2[count]
+    #path2 = file_path2 + "/" + path_name2[random.choice(list(range(0,count)) + list(range(count+1, 15013)))]
+    multichannels_splicing(path1, path2, count)
     count = count + 1
     print(count)
