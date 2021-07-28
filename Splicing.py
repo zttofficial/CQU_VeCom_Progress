@@ -55,20 +55,16 @@ path_name2 = [x for x in path_name2 if not "A" in x]
 path_name2.sort()
 #print(path_name2)
 
-#pic_joint    
+
 for file_name in path_name1:   
     path1 = file_path1 + "/" + path_name1[count]
     #path2 = file_path2 + "/" + path_name2[count]
     path2 = file_path2 + "/" + path_name2[random.choice(list(range(0,count)) + list(range(count+1, 15013)))]
+	#pic_joint    
     pic_joint(path1, path2, count, flag='horizontal')
-    count = count + 1
-    print(count)
+	
+	#multichannels_splicing
+	multichannels_splicing(path1, path2, count)
     
-#multichannels_splicing
-for file_name in path_name1:   
-    path1 = file_path1 + "/" + path_name1[count]
-    path2 = file_path2 + "/" + path_name2[count]
-    #path2 = file_path2 + "/" + path_name2[random.choice(list(range(0,count)) + list(range(count+1, 15013)))]
-    multichannels_splicing(path1, path2, count)
     count = count + 1
     print(count)

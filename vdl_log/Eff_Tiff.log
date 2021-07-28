@@ -1,0 +1,637 @@
+       
+meta_data_tagš™æà?R        
+lrêÀæà?%·Ñ8       
+train_CELossëÀæà?%b8?       
+
+train_lossëÀæà?%b8?       
+
+train_top1ëÀæà?%   ?       
+lrÎèà?%´Ñ8       
+train_CELossÎèà?%r:?       
+
+train_lossÎèà?%r:?       
+
+train_top1Îèà?%]t?       
+lrìåêà?%õ¬?       
+train_CELossìåêà?%T??       
+
+train_lossìåêà?%T??       
+
+train_top1ìåêà?%??       
+lr©şìà?%›¡?       
+train_CELoss©şìà?%–¾9?       
+
+train_loss©şìà?%–¾9?       
+
+train_top1©şìà?%B?       
+)lrœ•ïà?%’Ñ8       
+)train_CELossœ•ïà?%í¦8?       
+)
+train_lossœ•ïà?%í¦8?       
+)
+train_top1œ•ïà?%>?       
+3lrÒ®ñà?%L~?       
+3train_CELossÒ®ñà?%ËŠ8?       
+3
+train_lossÒ®ñà?%ËŠ8?       
+3
+train_top1Ò®ñà?%nn?       
+=lröÊóà?%Yf?       
+=train_CELossöÊóà?%šJ9?       
+=
+train_lossöÊóà?%šJ9?       
+=
+train_top1öÊóà?%L? ?       
+Glrÿæõà®/%5J?       
+Gtrain_CELossÿæõà®/%u??       
+G
+train_lossÿæõà®/%u??       
+G
+train_top1ÿæõà®/%s ?       
+Qlrİı÷à?%??       
+Qtrain_CELossŞı÷à?%Îè8?       
+Q
+train_lossŞı÷à?%Îè8?       
+Q
+train_top1Şı÷à?% ?       
+[lr¦˜úà?%]?       
+[train_CELoss¦˜úà?%êë8?       
+[
+train_loss¦˜úà?%êë8?       
+[
+train_top1¦˜úà?%I? ?       
+elr”³üà?%¬Ü?       
+etrain_CELoss”³üà?%®³8?       
+e
+train_loss”³üà?%®³8?       
+e
+train_top1”³üà?%pD?       
+olrÓşà?%Ğ¯?       
+otrain_CELossÓşà?%‘i8?       
+o
+train_lossÓşà?%‘i8?       
+o
+train_top1Óşà?%Ég?       
+ylrŠî€á®/%É~?       
+ytrain_CELossŠî€á®/%R 8?       
+y
+train_lossŠî€á®/%R 8?       
+y
+train_top1Šî€á®/%a??       
+?lrñŒƒá?%›I?       
+?train_CELossñŒƒá?%?8?       
+?
+train_lossñŒƒá?%?8?       
+?
+train_top1ñŒƒá?%ì­?       
+?lr›©…á?%F?       
+?train_CELoss›©…á?%?8?       
+?
+train_loss›©…á?%?8?       
+?
+train_top1›©…á?%8??       
+?lrÆ‡á?%ÎÒ?       
+?train_CELossÆ‡á?%?8?       
+?
+train_lossÆ‡á?%?8?       
+?
+train_top1Æ‡á?%ã–?       
+?lrĞâ‰á?%5‘Ï8       
+?train_CELossĞâ‰á?%?8?       
+?
+train_lossĞâ‰á?%?8?       
+?
+train_top1Ñâ‰á?%6?       
+?lrª€Œá?%~K?       
+?train_CELossª€Œá?%¼ö7?       
+?
+train_lossª€Œá?%¼ö7?       
+?
+train_top1ª€Œá?%m%?       
+?lr¡á?%??       
+?train_CELoss¡á?%ÚØ7?       
+?
+train_loss¡á?%ÚØ7?       
+?
+train_top1¡á?%7?       
+?lrâ»á?%¾³?       
+?train_CELossâ»á?%??       
+?
+train_lossâ»á?%??       
+?
+train_top1â»á?%??       
+?lr¡×’á?%½a?       
+?train_CELoss¡×’á?%Òç7?       
+?
+train_loss¡×’á?%Òç7?       
+?
+train_top1¡×’á?%àĞ ?       
+?lrĞò”á?%??       
+?train_CELossĞò”á?%œæ7?       
+?
+train_lossĞò”á?%œæ7?       
+?
+train_top1Ğò”á?%? ?       
+?lrà—á?%†±?       
+?train_CELossà—á?%??       
+?
+train_lossà—á?%??       
+?
+train_top1á—á?%;?       
+?lrª™á?%XS?       
+?train_CELossª™á?%N??       
+?
+train_lossª™á?%N??       
+?
+train_top1ª™á?%UU?       
+?lrñÃ›á?%#ñÌ8       
+?train_CELossñÃ›á?%ß„7?       
+?
+train_lossñÃ›á?%ß„7?       
+?
+train_top1ñÃ›á?%)i?       
+?lrú×á?%êŠ?       
+?train_CELossú×á?%›q7?       
+?
+train_lossú×á?%›q7?       
+?
+train_top1ú×á?%0??       
+eval_accÌ ¸á?%ØÎ?       
+?lrë¾¸á?%y€?       
+?train_CELossë¾¸á?%E5?       
+?
+train_lossë¾¸á?%E5?       
+?
+train_top1ë¾¸á?%  ?       
+?lr·Õºá?%??       
+?train_CELoss·Õºá?%Ø’4?       
+?
+train_loss·Õºá?%Ø’4?       
+?
+train_top1·Õºá?%/??       
+?lrøî¼á?%A§Ë8       
+?train_CELossøî¼á?%õ¡6?       
+?
+train_lossøî¼á?%õ¡6?       
+?
+train_top1øî¼á?%??       
+?lrú†¿á?%??       
+?train_CELossú†¿á?%?7?       
+?
+train_lossú†¿á?%?7?       
+?
+train_top1ú†¿á?%SJ?       
+?lr¥¡Áá?%0¾Ê8       
+?train_CELoss¥¡Áá?%¦‹6?       
+?
+train_loss¥¡Áá?%¦‹6?       
+?
+train_top1¥¡Áá?%? ?       
+?lrÎ»Ãá?%ÂC?       
+?train_CELossÎ»Ãá?%f??       
+?
+train_lossÎ»Ãá?%f??       
+?
+train_top1Î»Ãá?%UU?       
+?lrïÒÅá?%lÅÉ8       
+?train_CELossïÒÅá?%Ğ¹6?       
+?
+train_lossïÒÅá?%Ğ¹6?       
+?
+train_top1ïÒÅá?%‚ı>       
+?lr×ìÇá?%3C?       
+?train_CELoss×ìÇá?%96?       
+?
+train_loss×ìÇá?%96?       
+?
+train_top1×ìÇá?%6ÿ>       
+?lr·ƒÊá?%½È8       
+?train_CELoss¸ƒÊá?%?6?       
+?
+train_loss¸ƒÊá?%?6?       
+?
+train_top1¸ƒÊá?%ÚK ?       
+?lrœÌá?%-3?       
+?train_CELoss‘œÌá?%?6?       
+?
+train_loss‘œÌá?%?6?       
+?
+train_top1‘œÌá?%|?>       
+?lrÛ´Îá?%k¥Ç8       
+?train_CELossÛ´Îá?%@$6?       
+?
+train_lossÛ´Îá?%@$6?       
+?
+train_top1Û´Îá?%:5ÿ>       
+?lr—ÍĞá?%??       
+?train_CELoss—ÍĞá?%íB6?       
+?
+train_loss—ÍĞá?%íB6?       
+?
+train_top1—ÍĞá?%J ?       
+?lrÛãÒá?%…~?       
+?train_CELossÛãÒá?%üF6?       
+?
+train_lossÛãÒá?%üF6?       
+?
+train_top1ÛãÒá?%;?       
+?lr§ıÔá?%måÅ8       
+?train_CELoss§ıÔá?%?6?       
+?
+train_loss§ıÔá?%?6?       
+?
+train_top1§ıÔá?%åY?       
+?lrà—×á?%šH?       
+?train_CELossà—×á?%?6?       
+?
+train_lossà—×á?%?6?       
+?
+train_top1á—×á?%á”?       
+?lrˆ°Ùá?%¨Ä8       
+?train_CELossˆ°Ùá?%?6?       
+?
+train_lossˆ°Ùá?%?6?       
+?
+train_top1ˆ°Ùá?%i?       
+?lrªÊÛá?%??       
+?train_CELoss«ÊÛá?%?6?       
+?
+train_loss«ÊÛá?%?6?       
+?
+train_top1«ÊÛá?%µÎ?       
+?lr¨äİá?%ı[?       
+?train_CELoss¨äİá?%)6?       
+?
+train_loss¨äİá?%)6?       
+?
+train_top1¨äİá?%®¤?       
+?lrŞüßá?%}°Â8       
+?train_CELossßüßá?%¤Ô5?       
+?
+train_lossßüßá?%¤Ô5?       
+?
+train_top1ßüßá?%GVÿ>       
+?lr…•âá?%d?       
+?train_CELoss…•âá?%ÙÑ5?       
+?
+train_loss…•âá?%ÙÑ5?       
+?
+train_top1…•âá?%ÿ>ÿ>       
+?lrÏ«äá?%·N?       
+?train_CELossÏ«äá?%A??       
+?
+train_lossÏ«äá?%A??       
+?
+train_top1Ï«äá?%‹{ÿ>       
+?lr¦Ãæá?%~˜À8       
+?train_CELoss§Ãæá?%½ 5?       
+?
+train_loss§Ãæá?%½ 5?       
+?
+train_top1§Ãæá?%;?>       
+?lrÂÛèá?%ÀŞ?       
+?train_CELossÂÛèá?%Ìš5?       
+?
+train_lossÂÛèá?%Ìš5?       
+?
+train_top1ÂÛèá?%ˆ‡ÿ>       
+?lr‚öêá?%??       
+?train_CELoss‚öêá?%ÉŸ5?       
+?
+train_loss‚öêá?%ÉŸ5?       
+?
+train_top1‚öêá?%Wÿ>       
+?lr…íá?%Ô`?       
+?train_CELoss…íá?%<??       
+?
+train_loss†íá?%<??       
+?
+train_top1†íá?%Îş>       
+?lrÈŸïá?%µœ?       
+?train_CELossÈŸïá?%ã§5?       
+?
+train_lossÈŸïá?%ã§5?       
+?
+train_top1ÈŸïá?%Ö¨?       
+eval_accã‰â?%õı>       
+?lrû‚Šâ?%èˆ?       
+?train_CELossû‚Šâ?%?:?       
+?
+train_lossû‚Šâ?%?:?       
+?
+train_top1û‚Šâ?%  ?       
+?lr¡šŒâ?%Á¼8       
+?train_CELoss¡šŒâ?%ÇÖ3?       
+?
+train_loss¡šŒâ?%ÇÖ3?       
+?
+train_top1¡šŒâ?%]t?       
+?lr¿±â?%Ôõ?       
+?train_CELoss¿±â?%e3?       
+?
+train_loss¿±â?%e3?       
+?
+train_top1¿±â?%1?       
+?lr·Êâ?%F'?       
+?train_CELoss·Êâ?%t3?       
+?
+train_loss·Êâ?%t3?       
+?
+train_top1·Êâ?%t??       
+?lrµá’â?%kU?       
+?train_CELossµá’â?%uD4?       
+?
+train_lossµá’â?%uD4?       
+?
+train_top1µá’â?%íJ ?       
+?lrù÷”â?%K€?       
+?train_CELossù÷”â?%›Ú3?       
+?
+train_lossù÷”â?%›Ú3?       
+?
+train_top1ù÷”â?%UU?       
+?lrü—â?%ğ§?       
+?train_CELossü—â?%7??       
+?
+train_lossı—â?%7??       
+?
+train_top1ı—â?%???       
+?lr «™â?%aÌ·8       
+?train_CELoss «™â?%›ù3?       
+?
+train_loss «™â?%›ù3?       
+?
+train_top1 «™â?%?       
+?lrÃ›â?%¨í?       
+?train_CELossÃ›â?%~D4?       
+?
+train_lossÃ›â?%~D4?       
+?
+train_top1Ã›â?%?ÿ>       
+?lrƒÛâ?%??       
+?train_CELossƒÛâ?%mZ4?       
+?
+train_lossƒÛâ?%mZ4?       
+?
+train_top1ƒÛâ?%ïñ?       
+?lrùñŸâ?%??       
+?train_CELossùñŸâ?%s4?       
+?
+train_lossùñŸâ?%s4?       
+?
+train_top1ùñŸâ?%J§ş>       
+?lrÑ‰¢â?%??       
+?train_CELossÒ‰¢â?%õ^4?       
+?
+train_lossÒ‰¢â?%õ^4?       
+?
+train_top1Ò‰¢â?%3?>       
+?lr¥ ¤â?%ÏS?       
+?train_CELoss¦ ¤â?%kv4?       
+?
+train_loss¦ ¤â?%kv4?       
+?
+train_top1¦ ¤â?%ÿ>       
+?lrÇ¸¦â?%Êe?       
+?train_CELossÇ¸¦â?%{??       
+?
+train_lossÇ¸¦â?%{??       
+?
+train_top1Ç¸¦â?%??       
+?lr×Ğ¨â?%Òt?       
+?train_CELoss×Ğ¨â?%Ei4?       
+?
+train_lossØĞ¨â?%Ei4?       
+?
+train_top1ØĞ¨â?%-Cÿ>       
+?lr¢éªâ?%ñ€?       
+?train_CELoss¢éªâ?%r4?       
+?
+train_loss¢éªâ?%r4?       
+?
+train_top1¢éªâ?%Èş>       
+?lrß­â?%0Š¯8       
+?train_CELossà­â?%—j4?       
+?
+train_lossà­â?%—j4?       
+?
+train_top1à­â?%nÛş>       
+?lr‰™¯â?%š?       
+?train_CELoss‰™¯â?%f4?       
+?
+train_loss‰™¯â?%f4?       
+?
+train_top1‰™¯â?%~ÿ>       
+?lr½¯±â?%8”­8       
+?train_CELoss½¯±â?%fi4?       
+?
+train_loss½¯±â?%fi4?       
+?
+train_top1½¯±â?%¸F?       
+?lr”È³â?%•¬8       
+?train_CELoss”È³â?%¡ƒ4?       
+?
+train_loss”È³â?%¡ƒ4?       
+?
+train_top1”È³â?%o“ş>       
+?lráµâ?%9“«8       
+?train_CELossáµâ?%­y4?       
+?
+train_lossáµâ?%­y4?       
+?
+train_top1áµâ?%84ÿ>       
+?lr¦ú·â?%±?       
+?train_CELoss¦ú·â?%IV4?       
+?
+train_loss¦ú·â?%IV4?       
+?
+train_top1¦ú·â?%j ?       
+?lrÀ“ºâ?%‡‡?       
+?train_CELossÀ“ºâ?%*[4?       
+?
+train_lossÀ“ºâ?%*[4?       
+?
+train_top1À“ºâ?%İµÿ>       
+?lrö«¼â?%Ä}?       
+?train_CELossö«¼â?%ÛW4?       
+?
+train_lossö«¼â?%ÛW4?       
+?
+train_top1ö«¼â?%{ÿ>       
+?lrƒÃ¾â?%uq?       
+?train_CELoss„Ã¾â?%³I4?       
+?
+train_loss„Ã¾â?%³I4?       
+?
+train_top1„Ã¾â?%~ ?       
+?lrÀÒÀâ?%¢b?       
+?train_CELossÁÒÀâ?%dB4?       
+?
+train_lossÁÒÀâ?%dB4?       
+?
+train_top1ÁÒÀâ?%? ?       
+eval_accğ¼Ûâ?%£ú?       
+?lr·ÜÛâ?%jG?       
+?train_CELoss·ÜÛâ?%Øô*?       
+?
+train_loss·ÜÛâ?%Øô*?       
+?
+train_top1·ÜÛâ?%  ?       
+?lr«óİâ?%??       
+?train_CELoss«óİâ?%A??       
+?
+train_loss«óİâ?%A??       
+?
+train_top1«óİâ?%??       
+?lr•‰àâ?%??       
+?train_CELoss•‰àâ?%??       
+?
+train_loss•‰àâ?%??       
+?
+train_top1–‰àâ?%ç?       
+?lrÜ ââ?%??       
+?train_CELossÜ ââ?%/??       
+?
+train_lossÜ ââ?%/??       
+?
+train_top1Ü ââ?%¥”?       
+?lr×¸äâ?%ïò?       
+?train_CELossØ¸äâ?%(4?       
+?
+train_lossØ¸äâ?%(4?       
+?
+train_top1Ø¸äâ?%ƒû>       
+?lr÷Îæâ?%û×?       
+?train_CELoss÷Îæâ?%so4?       
+?
+train_loss÷Îæâ?%so4?       
+?
+train_top1÷Îæâ?%ƒ‚?       
+?lršæèâ?%Èº?       
+?train_CELossšæèâ?%ßD4?       
+?
+train_lossšæèâ?%ßD4?       
+?
+train_top1šæèâ?%¤Í?       
+?lr?êâ?%b›8       
+?train_CELoss?êâ?%O??       
+?
+train_loss?êâ?%O??       
+?
+train_top1?êâ?%? ?       
+?lrÙ—íâ?%Óy?       
+?train_CELossÙ—íâ?%üå3?       
+?
+train_lossÙ—íâ?%üå3?       
+?
+train_top1Ù—íâ?%   ?       
+?lrÑ®ïâ?%)V?       
+?train_CELossÑ®ïâ?%.4?       
+?
+train_lossÑ®ïâ?%.4?       
+?
+train_top1Ñ®ïâ?%|?>       
+?lr†Æñâ?%n0?       
+?train_CELoss†Æñâ?%A4?       
+?
+train_loss†Æñâ?%A4?       
+?
+train_top1†Æñâ?%G ?       
+?lrğàóâ?%??       
+?train_CELossğàóâ?%@$4?       
+?
+train_lossğàóâ?%@$4?       
+?
+train_top1ğàóâ?%:	 ?       
+?lrúøõâ?%öŞ?       
+?train_CELossúøõâ?%:4?       
+?
+train_lossúøõâ?%:4?       
+?
+train_top1úøõâ?%? ?       
+?lrÙøâ?%Q³—8       
+?train_CELossÚøâ?%©û3?       
+?
+train_lossÚøâ?%©û3?       
+?
+train_top1Úøâ?%ßÚ ?       
+?lr›«úâ?%Ë…?       
+?train_CELoss›«úâ?%v??       
+?
+train_loss›«úâ?%v??       
+?
+train_top1›«úâ?%,??       
+?lr¥Äüâ?%oV?       
+?train_CELoss¥Äüâ?%¸3?       
+?
+train_loss¥Äüâ?%¸3?       
+?
+train_top1¥Äüâ?%Ôõ?       
+?lrŞÛşâ?%L%?       
+?train_CELossßÛşâ?%B??       
+?
+train_lossßÛşâ?%B??       
+?
+train_top1ßÛşâ?%²?       
+?lr¹ó€ã®/%kò’8       
+?train_CELossºó€ã®/%ÅË3?       
+?
+train_lossºó€ã®/%ÅË3?       
+?
+train_top1ºó€ã®/%Cy?       
+?lrË‹ƒã?%Û½?       
+?train_CELossË‹ƒã?%—è3?       
+?
+train_lossË‹ƒã?%—è3?       
+?
+train_top1Ë‹ƒã?%7?       
+?lrâ¢…ã?%§‡?       
+?train_CELossâ¢…ã?%?4?       
+?
+train_lossâ¢…ã?%?4?       
+?
+train_top1â¢…ã?%ûû ?       
+?lrâ»‡ã?%ÜO?       
+?train_CELossâ»‡ã?%4?       
+?
+train_lossâ»‡ã?%4?       
+?
+train_top1â»‡ã?%°Æ ?       
+?lrµÒ‰ã?%??       
+?train_CELossµÒ‰ã?%´ı3?       
+?
+train_lossµÒ‰ã?%´ı3?       
+?
+train_top1µÒ‰ã?% ? ?       
+?lríé‹ã?%±Û?       
+?train_CELossîé‹ã?%ò÷3?       
+?
+train_lossîé‹ã?%ò÷3?       
+?
+train_top1îé‹ã?%Î¦ ?       
+?lr±ã?%kŸ‹8       
+?train_CELoss±ã?%??       
+?
+train_loss±ã?%??       
+?
+train_top1±ã?%k? ?       
+?lräšã?%Àa?       
+?train_CELossäšã?%âí3?       
+?
+train_lossäšã?%âí3?       
+?
+train_top1äšã?%v? ?       
+?lrØ©’ã?%??       
+?train_CELossÙ©’ã?%Äü3?       
+?
+train_lossÙ©’ã?%Äü3?       
+?
+train_top1Ù©’ã?%Mn ?       
+eval_accØ‘­ã?%1 ?       
+?lr¹±­ã?%??       
+?train_CELoss¹±­ã?%VP2?       
+?
+train_loss¹±­ã?%VP2?       
+?
+train_top1¹±­ã?%   ?       
+?lrÎÇ¯ã?%UÂ‡8             
