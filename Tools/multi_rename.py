@@ -1,3 +1,7 @@
+'''
+Batch rename
+'''
+
 import os
  
 file_path = "D:/CQU/车身对比/dataset_F"

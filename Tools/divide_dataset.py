@@ -1,3 +1,7 @@
+'''
+Separate positive and negative samples in the dataset
+'''
+
 import random
 
 txt_tables_T = []

@@ -1,3 +1,7 @@
+'''
+Use the tifffile library to try to convert .npy files into .tif images
+'''
+
 import tifffile
 from multichannels_splicing import multichannels_splicing
 

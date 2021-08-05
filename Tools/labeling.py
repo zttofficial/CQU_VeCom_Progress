@@ -1,3 +1,7 @@
+'''
+Label the dataset
+'''
+
 import os
 
 file_path = "/home/user/dataset/cut"

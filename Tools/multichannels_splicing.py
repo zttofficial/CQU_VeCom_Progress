@@ -1,3 +1,7 @@
+'''
+Combine two RGB images into a six-channel matrix
+'''
+
 import numpy as np
 from PIL import Image
 
