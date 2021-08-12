@@ -10,6 +10,10 @@ import utils
 import logging
 import sys
 import tensorflow as tf
+
+tf.compat.v1.disable_eager_execution()
+tf.compat.v1.experimental.output_all_intermediates(True)
+
 from tensorflow.keras import optimizers
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense,Conv2D
@@ -20,6 +24,9 @@ import time
 from cnn import AlexNet, VGGNet_11
 #from tensorflow.keras.applications import ResNet50V2, ResNet101V2, VGG16, VGG19, DenseNet121, MobileNetV2
 from utils import apply_gpu_mem
+from keras.callbacks import TensorBoard
+from keras.callbacks import ModelCheckpoint
+
 
 # 
 # BATCH_SIZE = 32
@@ -27,9 +34,9 @@ from utils import apply_gpu_mem
 # NUM_EPOCHS = 50
 
 parser = argparse.ArgumentParser("veri")
-parser.add_argument('--batch_size', type=int, default=256, help="batch_size")
+parser.add_argument('--batch_size', type=int, default=16, help="batch_size")
 parser.add_argument('--prefetch', type=int, default=1, help="num of prefetch batch(es)")
-parser.add_argument('--epochs', type=int, default=100, help="num of training epochs")
+parser.add_argument('--epochs', type=int, default=5, help="num of training epochs")
 parser.add_argument('--sigleepoch', type=int, default=1, help="num of training epochs")
 parser.add_argument('--lr', type=float, default=0.0001, help="the learning rate")
 parser.add_argument('--gpu', type=int, default=0, help="gpu device id")
@@ -108,10 +115,13 @@ def train():
                   optimizer=optimizers.Adam(args.lr),
                   metrics=['accuracy'])
     #model_dir = "./models/" + args.net
-    model_dir = './models/'
+    model_dir = './models'
     #model.load_weights(model_dir + "/" + args.net + "_net_weights_last.h5")
     f = open("./train/log.txt","w",encoding="utf-8")
     e = 0
+
+    model_checkpoint = ModelCheckpoint('1.hdf5', monitor='loss',verbose=0, save_best_only=True, save_freq=1)
+
     while True:
        # 训练模型
         if e>= args.epochs:
@@ -125,10 +135,13 @@ def train():
                  # 当数据集为dataset形式时不支持validation_split
                  # validation_split=0.2,
                  workers=args.workers,
-                 use_multiprocessing=True)
+                 use_multiprocessing=True,
+                 verbose=1,
+                 callbacks=[model_checkpoint,TensorBoard(log_dir=r"./logs", write_graph=True, write_images=True,
+                            histogram_freq=1,update_freq="batch",)])
         print("Model Testing")
 
-        model.evaluate(veri_test_data, steps=veri_test_len // args.batch_size)
+        model.evaluate(veri_test_data, steps=veri_test_len // args.batch_size, verbose=1)
        # 获取当前时间:202012082220
        #local_time = time.strftime(("%Y%m%d%H%M"), time.localtime())
        # 设置模型参数的保存路径及名称
@@ -144,6 +157,7 @@ def train():
         print("Model Testing")
         result = model.evaluate(veri_test_data, steps=veri_test_len // args.batch_size)
         f.write(os.path.join(model_dir,str(e)+"_epochs.h5")+"   loss:"+str(result[0])+"  acc:"+str(result[1])+"\n")
+
 
 if __name__ == "__main__":
     train()
