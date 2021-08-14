@@ -35,7 +35,7 @@ class AlexNet(Layer):
         self.model.add(Dropout(0.5))
         self.model.add(Dense(4096, activation='relu'))
         self.model.add(Dropout(0.5))
-        self.model.add(Dense(2, activation='softmax'))
+        self.model.add(Dense(1, activation='sigmoid'))
         # 模型编译
         # self.model.compile(loss="sparse_categorical_crossentropy", optimizer=optimizers.Adam(0.01), metrics=['accuracy'])
 
