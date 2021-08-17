@@ -4,9 +4,9 @@ Change the framework to TensorFlow.
 
 ####TensorBoard Test (train):
 
-![image-20210808010239732](.\images\image-20210808010239732.png)
+![image-20210808010239732](.\Images\image-20210808010239732.png)
 
-![image-20210808010255412](.\images\image-20210808010255412.png)
+![image-20210808010255412](.\Images\image-20210808010255412.png)
 
 #### Issues:
 
@@ -41,7 +41,7 @@ Increase the number of epochs.
 
 #### Eval Round 2
 
-![image-20210811175812068](.\images\image-20210811175812068.png)
+![image-20210811175812068](.\Images\image-20210811175812068.png)
 
 #### Issues:
 
@@ -57,7 +57,7 @@ A mistake was made in the division of the dataset.
 | Negative | 29045 | 3904 |
 | Total    | 58765 | 7797 |
 
-![image-20210812110104891](.\images\image-20210812110104891.png)
+![image-20210812110104891](.\Images\image-20210812110104891.png)
 
 #### Issues:
 
@@ -69,7 +69,7 @@ Add other more suitable metrics like F1 Score in subsequent experiments.
 
 #### Eval Round 4
 
-![image-20210812230230350](.\images\image-20210812230230350.png)
+![image-20210812230230350](.\Images\image-20210812230230350.png)
 
 ------
 
@@ -83,15 +83,15 @@ Changed the output of the last layer of the network from `Dense(2, activation='s
 
 ##### 5:
 
-![image-20210813005804405](.\images\image-20210813005804405.png)
+![image-20210813005804405](.\Images\image-20210813005804405.png)
 
 ##### 6:
 
-![image-20210813021332316](.\images\image-20210813021332316.png)
+![image-20210813021332316](.\Images\image-20210813021332316.png)
 
 ------
 
 ####8 epochs circumstance:
 
-![image-20210813223326662](.\images\image-20210813223326662.png)
+![image-20210813223326662](.\Images\image-20210813223326662.png)
 
