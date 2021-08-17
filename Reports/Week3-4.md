@@ -12,17 +12,17 @@ Connect two pictures horizontally.
 | ----- | ---- |
 | 29760 | 7440 |
 
-![image-20210723135948249](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210723135948249.png)
+![image-20210723135948249](.\images\image-20210723135948249.png)
 
-![image-20210723140036530](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210723140036530.png)
+![image-20210723140036530](.\images\image-20210723140036530.png)
 
-![image-20210723140057898](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210723140057898.png)
+![image-20210723140057898](.\images\image-20210723140057898.png)
 
-![image-20210723140114163](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210723140114163.png)
+![image-20210723140114163](.\images\image-20210723140114163.png)
 
-![image-20210723140133839](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210723140133839.png)
+![image-20210723140133839](.\images\image-20210723140133839.png)
 
-![image-20210723140149188](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210723140149188.png)
+![image-20210723140149188](.\images\image-20210723140149188.png)
 
 ```python
 Bestmodel:
@@ -41,25 +41,25 @@ Latest:
 | ----- | ---- |
 | 29760 | 7440 |
 
-![image-20210723232724336](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210723232724336.png)
+![image-20210723232724336](.\images\image-20210723232724336.png)
 
-![image-20210723233347869](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210723233347869.png)
+![image-20210723233347869](.\images\image-20210723233347869.png)
 
-![image-20210723232815994](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210723232815994.png)
+![image-20210723232815994](.\images\image-20210723232815994.png)
 
-![image-20210723232833450](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210723232833450.png)
+![image-20210723232833450](.\images\image-20210723232833450.png)
 
 #### Round 2 (fixed)
 
-![image-20210725021250312](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210725021250312.png)
+![image-20210725021250312](.\images\image-20210725021250312.png)
 
-![image-20210725021326679](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210725021326679.png)
+![image-20210725021326679](.\images\image-20210725021326679.png)
 
-![image-20210725021400049](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210725021400049.png)
+![image-20210725021400049](.\images\image-20210725021400049.png)
 
 ### AlexNet
 
-![image-20210724205152493](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210724205152493.png)
+![image-20210724205152493](.\images\image-20210724205152493.png)
 
 #### ISSUES
 
@@ -79,11 +79,11 @@ Use YOLO to select the main body of the car in advance, and form a new data set 
 
 ### EfficientNetB0
 
-#### ![image-20210727145817732](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210727145817732.png)
+#### ![image-20210727145817732](.\images\image-20210727145817732.png)
 
-![image-20210727145848989](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210727145848989.png)
+![image-20210727145848989](.\images\image-20210727145848989.png)
 
-![image-20210727145909609](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210727145909609.png)
+![image-20210727145909609](.\images\image-20210727145909609.png)
 
 ###Image processing method 3
 
@@ -97,9 +97,9 @@ Then use the `tifffile` library to convert the `.npy` file to a picture in `.tif
 | ----- | ---- |
 | 16042 | 4010 |
 
-![image-20210728231204642](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210728231204642.png)
+![image-20210728231204642](.\images\image-20210728231204642.png)
 
-![image-20210728231258699](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210728231258699.png)
+![image-20210728231258699](.\images\image-20210728231258699.png)
 
 | Train | Eval |
 | ----- | ---- |
