@@ -95,3 +95,10 @@ Changed the output of the last layer of the network from `Dense(2, activation='s
 
 ![image-20210813223326662](./Images/image-20210813223326662.png)
 
+#### Predict
+
+```
+TP/TS 0.7975223125083256 11974 15014
+FN/FS 0.8178366857599574 12279 15014
+```
+
